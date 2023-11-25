@@ -1,0 +1,29 @@
+.navbars{
+    display: flex;
+    justify-content: space-between;
+    padding: 17px;
+    box-shadow: 0 1px 3px -2px black;
+}
+
+
+
+.nav-menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    gap: 50px;
+    cursor: pointer;
+}
+
+
+.nav-login button{
+    width: 140px;
+    height: 48px;
+    border: 1px solid #767575;
+    border-radius: 75px;
+    font-size: 20px;
+    font-family: 500px;
+    background-color: white;
+    cursor: pointer;
+}
